@@ -76,9 +76,9 @@ let table =
 
 let form = (`
 <form method="POST" action="/chatbot">
-<label for="input">Enter your message:</label>
+<label for="input">Input:</label>
 <input type="text" id="input" name="input">
-<button type="submit">Submit</button>
+<button type="submit">Skicka</button>
 `)
 
 app.get('/', (req, res) => {
